@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /search?
+Disallow: /search/*
+Disallow: /?search=
+Disallow: /*?search=
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard/
+
+Crawl-delay: 1
+
+Sitemap: https://GEN-video/sitemap.xml
